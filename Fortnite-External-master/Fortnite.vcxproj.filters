@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="include\imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_demo.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_glfw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_tables.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="driverloader\file_utils.cpp">
+      <Filter>Driver\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="driverloader\singed.cpp">
+      <Filter>Driver\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="driverloader\service_utils.cpp">
+      <Filter>Driver\Loader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.hpp" />
+    <ClInclude Include="driver.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="string.hpp" />
+    <ClInclude Include="driverloader\file_utils.hpp">
+      <Filter>Driver\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="driverloader\service_utils.hpp">
+      <Filter>Driver\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="driverloader\singed.hpp">
+      <Filter>Driver\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="driverloader\raw_driver.hpp">
+      <Filter>Driver\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="WindowsHijacking.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{4d9021b4-dd91-4ec8-87c7-bda5042981d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{32cfab22-395c-448f-950f-47310441bf56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Loader">
+      <UniqueIdentifier>{83b1fab2-b644-4a84-974c-23b1893d6d93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
